@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.genesis.ginvoice.view.MainView
+        android:id="@+id/invoice_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/view_invoice_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin_default"
+            app:layout_constraintTop_toBottomOf="@id/btn_takephoto"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btn_takephoto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@mipmap/app_logo"
+            app:civ_border_width="1dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_jump_record"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="@dimen/camera_bottom_margin"-->
+            <!--android:background="@color/color_background"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/str_jump2_doc"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:textSize="@dimen/camera_bottom_margin"-->
+            <!--app:layout_constraintBottom_toTopOf="@+id/btn_setting"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_setting"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="@dimen/camera_bottom_margin"-->
+            <!--android:background="@color/color_background"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/str_setting"-->
+            <!--android:textColor="@color/colorPrimaryDark"-->
+            <!--android:textSize="@dimen/camera_bottom_margin"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+
+            <!--/>-->
+    </com.genesis.ginvoice.view.MainView>
+
+
+</android.support.constraint.ConstraintLayout>

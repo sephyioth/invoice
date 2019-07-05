@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_homepage_appbar">200dp</dimen>
+    <dimen name="gridview_content_arrowheight">5dp</dimen>
+    <dimen name="gridview_content_arrowwidth">8dp</dimen>
+    <dimen name="gridview_content_arrowpadding">3dp</dimen>
+    <dimen name="activity_input_height">47dp</dimen>
+    <dimen name="activity_input_padding">55dp</dimen>
+    <dimen name="activity_input_width">90dp</dimen>
+    <dimen name="activity_text_width">90dp</dimen>
+    <dimen name="activity_text_height">45dp</dimen>
+    <dimen name="activity_button_height">45dp</dimen>
+    <dimen name="activity_vertical_full">0dp</dimen>
+    <dimen name="appbar_padding_top">1dp</dimen>
+    <dimen name="tag_corner_radius">5.0dip</dimen>
+    <dimen name="textsize_dp_smaller_v2">12dp</dimen>
+    <dimen name="textsize_dp_smaller">15dp</dimen>
+    <dimen name="textsize_dp_small">17dp</dimen>
+    <dimen name="textsize_dp_medium">20dp</dimen>
+    <dimen name="textsize_dp_large">22dp</dimen>
+    <dimen name="textsize_dp_larger">25dp</dimen>
+    <dimen name="base_list_title_text_size">16.0sp</dimen>
+    <dimen name="base_list_desc_text_size">13.0sp</dimen>
+    <dimen name="base_list_tag_text_size">11.0sp</dimen>
+    <dimen name="base_list_header_text_size">14.0sp</dimen>
+
+    <dimen name="base_titlebar_height">55dp</dimen>
+    <dimen name="fab_layout_bottom">65dp</dimen>
+    <dimen name="fab_layout_right">35dp</dimen>
+    <dimen name="dialog_layout_margin_bottom">25dp</dimen>
+    <dimen name="dialog_layout_margin_top">30dp</dimen>
+
+    <dimen name="widget_padding_defalut">10dp</dimen>
+    <dimen name="text_margin_default">5dp</dimen>
+    <dimen name="file_item_margin_default">3dp</dimen>
+    <dimen name="text_height_default">35dp</dimen>
+    <!--image 部分-->
+    <dimen name="image_hight_default">70dp</dimen>
+    <dimen name="image_width_default">70dp</dimen>
+    <dimen name="image_hight_small">35dp</dimen>
+    <dimen name="image_width_small">35dp</dimen>
+    <dimen name="image_hight_small_v2">16dp</dimen>
+    <dimen name="image_width_small_v2">16dp</dimen>
+    <dimen name="image_hight_small_v3">50dp</dimen>
+    <dimen name="image_width_small_v3">50dp</dimen>
+    <dimen name="image_hight_medium">100dp</dimen>
+    <dimen name="image_width_medium">100dp</dimen>
+    <!--APPbar部分-->
+    <dimen name="applayout_heigh">240dp</dimen>
+    <dimen name="navigation_heigh">200dp</dimen>
+    <dimen name="base_actionbottombar_height">100dp</dimen>
+    <dimen name="q2bar_hight">80dp</dimen>
+    <dimen name="cell_height">40dp</dimen>
+
+    <!--table-->
+    <dimen name="row_header_width">55dp</dimen>
+
+</resources>

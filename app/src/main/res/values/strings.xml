@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">genesis发票机</string>
+    <string name="str_invoice">发票扫描</string>
+    <string name="str_main_title">这是一个应用</string>
+    <string name="str_search_file">从文件中扫描</string>
+    <string name="str_jump2_doc">发票时光机</string>
+    <string name="str_setting">设置</string>
+    <string name="str_recordlist">发票记录</string>
+    <string name="str_personal_name">名字</string>
+    <string name="str_personal_comp">公司</string>
+    <string name="str_personal_email">email</string>
+    <string name="str_personal_bank">银行卡号</string>
+    <string name="str_personal_bank_addr">开户行地址</string>
+    <string name="str_personal_phone">电话</string>
+    <string name="str_file_explore">文件夹</string>
+    <string name="str_ensure">ensure</string>
+    <string name="str_chose_file_size">已经选择 %1$d 个目录</string>
+    <string name="str_unknow_name">未知发票号</string>
+    <string name="str_dialog_title">这是一个弹出框</string>
+    <string name="str_dialog_export_msg">是要导出吗？</string>
+    <string name="str_card_name_format"> %1$s 等 %2$d 条记录</string>
+    <string name="str_cancle">cancle</string>
+    <string name="str_file_name_format"> %1$s 等 %2$d 条%3$.2f 元</string>
+    <string name="str_dialog_ensure">确定</string>
+    <string name="str_dialog_cancle">取消</string>
+    <string name="str_dialog_login_rempwd">记住密码</string>
+    <string name="str_dialog_login_autologin">自动登录</string>
+    <string name="str_dialog_chose_item1">拍照识别发票</string>
+    <string name="str_dialog_chose_item2">相册识别发票</string>
+    <string name="str_dialog_chose_item3">文件识别文字</string>
+    <string name="str_ensure2delete">要删除吗？</string>
+    <string name="str_save">保存</string>
+    <string name="str_setting_title">个人设置</string>
+    <string name="str_export_file">导出</string>
+    <string name="str_history">记录</string>
+    <string name="str_card_detail_title">卡片详情</string>
+
+    <array name="array_invoice">
+        <item>发票号</item>
+        <item>时间</item>
+        <item>金额</item>
+        <item>收款单位</item>
+        <item>收款地址</item>
+        <item>收款账号</item>
+        <item>收款单位联系方式</item>
+        <item>支付单位名称</item>
+        <item>支付单位地址</item>
+        <item>支付单位联系方式</item>
+        <item>明细</item>
+        <item>Checker</item>
+    </array>
+
+    <array name="array_personal">
+        <item>名字</item>
+        <item>公司</item>
+        <item>email</item>
+        <item>银行卡号</item>
+        <item>开户行地址</item>
+        <item>电话</item>
+    </array>
+
+    <array name="array_title">
+        <item>invoice Id</item>
+        <item>照片路径</item>
+        <item>缩略图</item>
+        <item>总价</item>
+        <item>收款单位</item>
+        <item>收款单位银行</item>
+        <item>收款地址</item>
+        <item>支付单位</item>
+        <item>支付单位地址</item>
+        <item>支付单位编码</item>
+        <item>大写</item>
+        <item>价格（元）</item>
+        <item>detail</item>
+        <item>checker</item>
+        <item>创建时间</item>
+    </array>
+</resources>

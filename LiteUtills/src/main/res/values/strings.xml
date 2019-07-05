@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiteUtills</string>
+    <!-- 异常提示 -->
+    <string name="dial_tip">无法找到dial在手机中</string>
+    <string name="mobile_no_sendmsg_component">缺少短信组件</string>
+    <string name="internal_storage">内部存储</string>
+</resources>

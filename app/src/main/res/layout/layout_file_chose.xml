@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background">
+
+    <LinearLayout
+        android:id="@+id/sex_dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:layout_marginTop="@dimen/dialog_layout_margin_top"
+            android:layout_marginRight="@dimen/text_margin_default"
+            android:layout_marginBottom="@dimen/dialog_layout_margin_bottom"
+            android:gravity="center"
+            android:text="@string/str_ensure2delete"
+            android:textSize="@dimen/textsize_dp_medium"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:layout_marginTop="@dimen/widget_padding_defalut"
+            android:layout_marginRight="@dimen/text_margin_default"
+            android:background="@drawable/bt_press_change"
+            android:button="@null"
+            android:text="@string/str_dialog_ensure"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        <Button
+            android:id="@+id/btn_cancel_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:layout_marginTop="@dimen/widget_padding_defalut"
+            android:layout_marginRight="@dimen/text_margin_default"
+            android:background="@null"
+            android:text="@string/str_dialog_cancle"
+            android:textAppearance="?android:textAppearanceSmall"/>
+    </LinearLayout>
+
+</RelativeLayout>

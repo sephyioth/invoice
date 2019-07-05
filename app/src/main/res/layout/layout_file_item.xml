@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/file_item_margin_default">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_titlebar_height"
+        android:layout_margin="@dimen/text_margin_default"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="@dimen/text_margin_default"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/text_margin_default">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_file"
+                android:layout_width="@dimen/image_hight_small"
+                android:layout_height="@dimen/image_hight_small"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/text_margin_default"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/view_file_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="@dimen/text_margin_default"
+                android:layout_toRightOf="@+id/image_file"
+                android:text="helloworld"
+                android:textColor="@color/base_white"
+                android:textSize="@dimen/textsize_dp_small"/>
+
+            <CheckBox
+                android:id="@+id/view_check_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/widget_padding_defalut"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

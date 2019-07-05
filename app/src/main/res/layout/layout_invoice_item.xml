@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/gridview_content_arrowpadding">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/widget_padding_defalut"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="@dimen/text_margin_default"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/widget_padding_defalut">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_invoice_pic"
+                android:layout_width="@dimen/image_hight_small"
+                android:layout_height="@dimen/image_hight_small"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/text_margin_default"
+                android:src="@mipmap/ic_launcher"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view_invoice_pic"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/view_invoice_num"
+                    android:layout_width="@dimen/dimen_homepage_appbar"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:maxLines="1"
+                    android:text="name"
+                    android:textColor="@color/base_white"
+                    android:textSize="@dimen/textsize_dp_medium"
+                    />
+
+                <TextView
+                    android:id="@+id/view_seller_name"
+                    android:layout_width="@dimen/dimen_homepage_appbar"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:maxLines="1"
+                    android:text="name"
+                    android:textColor="@color/base_white"
+                    android:textSize="@dimen/textsize_dp_smaller"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/view_invoice_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/text_margin_default"
+                android:layout_toLeftOf="@+id/view_check_item"
+                android:text="12.1"
+                android:textColor="@color/base_red"
+                android:textSize="@dimen/textsize_dp_large"/>
+
+            <CheckBox
+                android:id="@+id/view_check_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/widget_padding_defalut"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

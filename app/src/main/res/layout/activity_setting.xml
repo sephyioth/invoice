@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.genesis.ginvoice.view.SettingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+            android:text="@string/str_personal_name"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_name"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+
+            android:singleLine="true"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_comp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        app:layout_constraintTop_toBottomOf="@+id/layout_name"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+            android:text="@string/str_personal_comp"
+
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_comp"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:singleLine="true"
+
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        app:layout_constraintTop_toBottomOf="@+id/layout_comp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+            android:text="@string/str_personal_phone"
+
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_phone"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        app:layout_constraintTop_toBottomOf="@+id/layout_phone"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+            android:text="@string/str_personal_email"
+
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_email"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bank_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        app:layout_constraintTop_toBottomOf="@+id/layout_email"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+
+            android:text="@string/str_personal_bank"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_bank"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bank_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/widget_padding_defalut"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/widget_padding_defalut"
+        app:layout_constraintTop_toBottomOf="@+id/layout_bank_id"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin_default"
+            android:gravity="center|left"
+            android:text="@string/str_personal_bank_addr"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+        <EditText
+            android:id="@+id/edit_personal_bank_addr"
+            android:layout_width="@dimen/dimen_homepage_appbar"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textSize="@dimen/textsize_dp_small"/>
+
+    </RelativeLayout>
+</com.genesis.ginvoice.view.SettingView>
