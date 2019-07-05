@@ -10,6 +10,10 @@ Android jpg 2 text and photo invoice 2 xml。
 虚拟抽离 OCR 和 db 为虚拟设备，父类 Activity 包含了一个 titlebar 并且 create 就会注册到注册机，逻辑模块和业务模块需要在
 init 中初始化，每次调用设备时，设定相关 control 的 id 就可以让 libcore 自己去解析 json，把模型数据显示到 view 中，例如
 mainActivity 中的模块，可以在 initView 初始化模块：
+
+“` java 
+private 
+“` 
 	“` java 
     @Override
     protected void initView () {
